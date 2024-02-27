@@ -43,4 +43,4 @@ function generateReadme(data) {
 }
 
 // exporting the readmeGenerator
-module.exports = readmeGenerator;
+module.exports = generateReadme;
