@@ -3,14 +3,9 @@ const fs = require('fs');
 const inquirer = require('inquirer');
 // This is to make sure we use the inquirer that we installed. 
 const util = require("util");
-
-
-
-const generateREADME = require("")
+const generateREADME = require("./utils/readmeGenerator")
 // This is to make sure the README file is built 
-
-
-
+const writeFileAsync = util.promisify(fs.writeFile);
 
 
 
@@ -76,7 +71,7 @@ inquirer
 {
     type:"input",
     message:"Please add your github username for any questions the user might have.",
-    name:"questions",
+    name:"qithub",
 },
 // WHEN I enter my email address, his is added to the section of the README entitled Questions, with instructions on how to reach me with additional questions
 {
@@ -84,37 +79,26 @@ inquirer
     message:"Please enter your email for any extra questions the user might have.",
     name:"email",
 },
-// WHEN I click on the links in the Table of Contents
-// THEN I am taken to the corresponding section of the README
-
-
-
-
-
 ])
 
 
 
 
-// The next part if for the response. This is what has the README file actually get built after the user fills out of the prompts. 
-// I built a README and then copied it over and then put the responses in where needed. 
+// The next part if for the async function, to then start using the utils folder where the skeleton README file is located. 
+async function init() {
+ try {
 
-.then((response))=>
-fs.writeFile('READMNE.md',
-${response.title}
-${response.discription}
-$
-$
-$
+    // This is to ask the user all the prompts and to generate the responses in the coressponding README file
+    const answers = await promptUser();
+    const generate = generateReadme(answers);
 
-
-// Err is for anything that wasn't fully filled out properly or ignored by the user. 
-    err ? console.error(err) : console.log("NEW README")
-
-
-
-
-
-)
-
-
+    // Next is to send the generated Readme to the dist directory (distribution directory) which is a folder for all the created Reames. 
+    await writeFileAsync('.dist/READMe.md');
+        console.log('Successfully wrote to README.md');
+ }
+//  This is to finish out the funciton and to console.log any errors. 
+    catch (err) {
+        console.log(err);
+    }
+}
+init();
