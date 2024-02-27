@@ -11,11 +11,14 @@ function generateReadme(data) {
 ## Description 
  ${data.description}
 
-
-
  ## Table of Contents 
+* [Installation](#-Installation)
+* [Usage](#-Usage)
+* [Contributing](#-Contributing)
+* [Tests](#-Tests)
+* [License](#-License)
+* [Questions](#-Questions) 
 
-# Installation
  ${data.instal}
 
 ## Usage
