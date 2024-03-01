@@ -1,5 +1,6 @@
 const fs = require('fs');
 const inquirer = require('inquirer');
+// util is a folder for "utilities" so its holding the skleton readme I would like to use.
 const util = require("util");
 
 const generateREADME = require("./utils/readmeGenerator");
@@ -12,18 +13,18 @@ const prompts = [
     // WHEN I enter my project title
     {
         type: "input",
-        message: "Please type in the title of your README.",
+        message: "Please enter the title of your project.",
         name: "title",
     },
     // WHEN I enter a description, installation instructions, usage information, contribution guidelines, and test instructions
     {
         type: "input",
-        message: "Please enter the description of your APP.",
+        message: "Please enter the description of your project.",
         name: "discription",
     },
     {
         type: "input",
-        message: "Please describe what the usage if this app is for.",
+        message: "Please describe the usage of this project is used for.",
         name: "usage",
     },
     {
@@ -46,7 +47,7 @@ const prompts = [
     // WHEN I choose a license for my application from a list of options
     {
         type: "list",
-        message: "Please choose which license you will be using,",
+        message: "Please choose which license you used:",
         name: "license",
         choices: [
             "M.I.T",
@@ -74,14 +75,16 @@ const prompts = [
     },
 ];
 
-// Call inquirer.prompt once with the defined prompts
+// Call inquirer.prompt once with the prompts
 inquirer.prompt(prompts).then(async (answers) => {
     try {
         const generatedREADME = generateREADME(answers);
 
         // Create the dist directory if it doesn't exist
         if (!fs.existsSync('./dist')) {
+            // Creates the "dist" directory if it doesn't exist. It uses mkdirSync to create the directory.
             fs.mkdirSync('./dist');
+
         }
 
         // Write the README file to the dist directory
