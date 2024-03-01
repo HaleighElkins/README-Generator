@@ -1,5 +1,4 @@
-    # Project Title
-  README Generator 
+# README Generator
   
   ## Description
   Using Node you will be able to enter what your project title  is, a description, the ususage, contributors, test instructions, licenses, and questions.  
@@ -10,7 +9,7 @@
   * [Usage](#Usage)
   * [Installation](#Installation)
   * [Contributing](#Contributing)
-  * [Tests](#Tests)
+  * [Credits](#Credits)
   * [License](#License)
   * [Questions](#Questions)
   
@@ -39,9 +38,6 @@ https://stackoverflow.com/questions/74733711/passing-in-a-result-of-a-function-t
 Badge recourses: 
 https://dev.to/cicirello/badges-tldr-for-your-repositorys-readme-3oo3 
 https://stackoverflow.com/questions/67013842/trying-to-place-license-badge-within-readme-md-using-node-js-but-getting-error-a
-  
-  ## Tests
-  No
   
   ## License
   ![badge](https://img.shields.io/badge/license-No License Used-brightgreen)<br />
