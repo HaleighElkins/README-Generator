@@ -4,7 +4,13 @@
 
 Using Node you will be able to enter what your project title is, a description, the ususage, contributors, test instructions, licenses, and questions.
 
+<img width="819" alt="Screenshot 2024-03-05 151304" src="https://github.com/HaleighElkins/README-Generator/assets/152942336/9e3f8714-a474-4916-93cb-92571b93af80">
+
+<img width="759" alt="Screenshot 2024-03-05 151456" src="https://github.com/HaleighElkins/README-Generator/assets/152942336/5b972651-2506-4ccf-9b7e-7cd12747edd9">
+
 ---
+
+
 
 ## Table of Contents
 
@@ -25,7 +31,8 @@ Using Node I will have a professional README Gen
 
 ## Installation
 
-Install inquiere onto your console.
+* npm init 
+* npm install inquirer
 
 ## Credits
 
