@@ -15,7 +15,7 @@ Using Node you will be able to enter what your project title is, a description, 
 ## Table of Contents
 
 - [Usage](#Usage)
-- [AcceptanceCriteria](#AcceptanceCriteria)
+- [Acceptance-Criteria](#Acceptance-Criteria)
 - [Installation](#Installation)
 - [Contributing](#Contributing)
 - [Credits](#Credits)
