@@ -4,6 +4,7 @@ const inquirer = require('inquirer');
 const util = require("util");
 
 const generateREADME = require("./utils/readmeGenerator");
+// This is to convert the fs function that returns as a promise.
 const writeFileAsync = util.promisify(fs.writeFile);
 
 // Prompts for the README file. Starting with the Title of the README
