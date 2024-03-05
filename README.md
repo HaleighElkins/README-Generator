@@ -29,16 +29,20 @@ Install inquiere onto your console.
 
 ## Credits
 
-https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/licensing-a-repository
-https://stackoverflow.com/questions/62597209/trying-to-generate-a-readme-using
-https://www.npmjs.com/package/generate-readme
-https://codesandbox.io/p/sandbox/readme-generator-pqdls5?file=%2Findex.js
-https://stackoverflow.com/questions/74733711/passing-in-a-result-of-a-function-to-generate-readme
+* https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/licensing-a-repository
+
+* https://stackoverflow.com/questions/62597209/trying-to-generate-a-readme-using
+
+* https://www.npmjs.com/package/generate-readme
+* https://codesandbox.io/p/sandbox/readme-generator-pqdls5?file=%2Findex.js
+* https://stackoverflow.com/questions/74733711/passing-in-a-result-of-a-function-to-generate-readme
 
 Badge recourses:
-https://dev.to/cicirello/badges-tldr-for-your-repositorys-readme-3oo3
-https://stackoverflow.com/questions/67013842/trying-to-place-license-badge-within-readme-md-using-node-js-but-getting-error-a
-https://gist.github.com/lukas-h/2a5d00690736b4c3a7ba
+* https://dev.to/cicirello/badges-tldr-for-your-repositorys-readme-3oo3
+
+* https://stackoverflow.com/questions/67013842/trying-to-place-license-badge-within-readme-md-using-node-js-but-getting-error-a
+
+* https://gist.github.com/lukas-h/2a5d00690736b4c3a7ba
 
 
 ## License
