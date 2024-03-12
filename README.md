@@ -8,6 +8,8 @@ Using Node you will be able to enter what your project title is, a description, 
 
 <img width="759" alt="Screenshot 2024-03-05 151456" src="https://github.com/HaleighElkins/README-Generator/assets/152942336/5b972651-2506-4ccf-9b7e-7cd12747edd9">
 
+Video Link - https://drive.google.com/file/d/1DwDrat9Ta5pcW2L91gqNkSfezBbua7JL/view
+
 ---
 
 
